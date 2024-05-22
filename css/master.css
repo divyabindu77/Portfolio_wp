@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    font: Arial, sans-serif;
+    background-color: #704264;
+    color: #FFE6E6;
+}
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1%;
+}
+.logo{
+    max-width: 100%;
+    border-radius: 15%;
+    margin-top: 1%;
+}
+.profile-box {
+   background-color: #F5DAD2;
+   padding: 10%;
+   margin: 30%;
+   margin-top: 5%;
+   margin-bottom: 7%;
+   border-radius: 15%;
+   text-align: center;
+   height: 10cm;
+   
+}
+.profile-image {
+    max-width: 100%;
+    height: 7cm;
+    border-radius: 20%;
+    margin-bottom: 30%;
+    
+}
+button {
+    background-color: #704264;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: black;
+}
+.footer {
+    background-color: rgb(64, 50, 50); /* Example background color */
+    color: #FFE6E6; /* Example text color */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.last {
+    align-items: center;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
